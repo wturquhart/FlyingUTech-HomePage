@@ -8,7 +8,7 @@ include 'includes/header.php';
     <!-- Hero Section with Image -->
     <section class="hero hero-with-image">
         <!-- Hero Image: Replace 'images/hero-bg.svg' with your image path -->
-        <img src="images/hero-bg.svg" alt="Technology Background" class="hero-image">
+        <img src="images/hero-bg.jpg" alt="Technology Background" class="hero-image">
         
         <!-- Overlay options: 'dark', 'light', or 'gradient-accent' -->
         <div class="hero-overlay dark"></div>
