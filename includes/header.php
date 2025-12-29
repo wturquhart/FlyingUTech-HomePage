@@ -14,7 +14,7 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="index.php" class="logo">FlyingU Tech</a>
+            <a href="index.php" class="logo">Flying U Technologies</a>
             
             <div class="menu-toggle" id="mobile-menu">
                 <span></span>
