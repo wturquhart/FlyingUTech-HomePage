@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Professional technology solutions for your business'; ?>">
-    <title><?php echo isset($pageTitle) ? $pageTitle . ' - FlyingU Tech' : 'FlyingU Tech - Technology Solutions'; ?></title>
+    <title><?php echo isset($pageTitle) ? $pageTitle . ' Flying U Technologies' : 'Flying U Technologies - Technology Solutions'; ?></title>
     
     <!-- CSS Files with cache busting -->
     <?php 

@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "About Us";
-$pageDescription = "Learn more about FlyingU Tech and our mission to deliver exceptional technology solutions";
+$pageDescription = "Learn more about Flying U Technologies and our mission to deliver exceptional technology solutions";
 include 'includes/header.php';
 ?>
 
@@ -8,7 +8,7 @@ include 'includes/header.php';
     <!-- Page Header -->
     <section class="hero">
         <div class="container">
-            <h1>About FlyingU Tech</h1>
+            <h1>About Flying U Technologies</h1>
             <p>Pioneering the future of technology solutions</p>
         </div>
     </section>
@@ -29,15 +29,15 @@ include 'includes/header.php';
         <div class="container">
             <div class="grid">
                 <div class="card">
-                    <h3>?? Our Mission</h3>
+                    <h3>Our Mission</h3>
                     <p>To empower businesses with innovative technology solutions that drive growth, efficiency, and success in the digital age. We're committed to delivering excellence in every project.</p>
                 </div>
                 <div class="card">
-                    <h3>??? Our Vision</h3>
+                    <h3>Our Vision</h3>
                     <p>To be the world's most trusted technology partner, known for transforming complex challenges into elegant solutions that create lasting value for our clients.</p>
                 </div>
                 <div class="card">
-                    <h3>?? Our Values</h3>
+                    <h3>Our Values</h3>
                     <p>Innovation, integrity, excellence, and collaboration. We believe in building long-term relationships based on trust, transparency, and exceptional results.</p>
                 </div>
             </div>

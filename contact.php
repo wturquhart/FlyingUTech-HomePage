@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Contact Us";
-$pageDescription = "Get in touch with FlyingU Tech for your technology needs";
+$pageDescription = "Get in touch with Flying U Technologies for your technology needs";
 
 // Initialize variables
 $formSubmitted = false;
@@ -63,22 +63,22 @@ include 'includes/header.php';
         <div class="container">
             <div class="grid">
                 <div class="card">
-                    <h3>?? Email</h3>
-                    <p>info@flyingutech.com</p>
-                    <p>support@flyingutech.com</p>
+                    <h3>Email</h3>
+                    <p>contact@flyingutech.com</p>
+                    <p>admin@urquhartsystems.com</p>
                 </div>
                 <div class="card">
-                    <h3>?? Phone</h3>
+                    <h3>Phone</h3>
                     <p>Main: +1 (555) 123-4567</p>
                     <p>Support: +1 (555) 123-4568</p>
                 </div>
                 <div class="card">
-                    <h3>?? Location</h3>
+                    <h3>Location</h3>
                     <p>123 Tech Street</p>
                     <p>Silicon Valley, CA 94000</p>
                 </div>
                 <div class="card">
-                    <h3>?? Business Hours</h3>
+                    <h3>Business Hours</h3>
                     <p>Monday - Friday: 9AM - 6PM</p>
                     <p>Weekend: By Appointment</p>
                 </div>
@@ -138,7 +138,7 @@ include 'includes/header.php';
         <div class="container">
             <div class="content-section" style="text-align: center;">
                 <h3>Visit Our Office</h3>
-                <p>We're located in the heart of Silicon Valley. Schedule a visit to discuss your project in person.</p>
+                <p>We're located in the heart of Texas. Schedule a visit to discuss your project in person.</p>
                 <a href="#" class="btn" style="margin-top: 20px;">Schedule a Visit</a>
             </div>
         </div>

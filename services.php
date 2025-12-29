@@ -19,7 +19,7 @@ include 'includes/header.php';
             <h2>What We Offer</h2>
             
             <div id="web-dev" class="content-section" style="margin-top: 40px;">
-                <h3>?? Web Development</h3>
+                <h3>Web Development</h3>
                 <p>Create stunning, responsive websites and web applications that engage your audience and drive results. Our full-stack developers use modern frameworks and best practices to build fast, secure, and scalable solutions.</p>
                 <ul style="color: var(--secondary-text); margin-top: 15px; margin-left: 20px;">
                     <li>Custom Website Development</li>
@@ -31,7 +31,7 @@ include 'includes/header.php';
             </div>
 
             <div id="cloud" class="content-section">
-                <h3>?? Cloud Solutions</h3>
+                <h3>Cloud Solutions</h3>
                 <p>Migrate to the cloud with confidence. We design and implement cloud infrastructure that's scalable, secure, and cost-effective. Whether you're starting fresh or migrating existing systems, we've got you covered.</p>
                 <ul style="color: var(--secondary-text); margin-top: 15px; margin-left: 20px;">
                     <li>Cloud Migration Services</li>
@@ -43,7 +43,7 @@ include 'includes/header.php';
             </div>
 
             <div id="consulting" class="content-section">
-                <h3>?? IT Consulting</h3>
+                <h3>IT Consulting</h3>
                 <p>Strategic technology guidance to help you make informed decisions. Our consultants bring years of experience to help you optimize your IT infrastructure, reduce costs, and improve efficiency.</p>
                 <ul style="color: var(--secondary-text); margin-top: 15px; margin-left: 20px;">
                     <li>Technology Strategy Planning</li>
@@ -55,7 +55,7 @@ include 'includes/header.php';
             </div>
 
             <div id="security" class="content-section">
-                <h3>?? Cybersecurity</h3>
+                <h3>Cybersecurity</h3>
                 <p>Protect your business from cyber threats with our comprehensive security services. We implement defense-in-depth strategies to safeguard your data, systems, and reputation.</p>
                 <ul style="color: var(--secondary-text); margin-top: 15px; margin-left: 20px;">
                     <li>Security Audits & Assessments</li>
@@ -74,27 +74,27 @@ include 'includes/header.php';
             <h2>More Services</h2>
             <div class="grid">
                 <div class="card">
-                    <h3>?? Mobile Development</h3>
+                    <h3>Mobile Development</h3>
                     <p>Native and cross-platform mobile applications that deliver exceptional user experiences on iOS and Android.</p>
                 </div>
                 <div class="card">
-                    <h3>?? AI & Machine Learning</h3>
+                    <h3>AI & Machine Learning</h3>
                     <p>Leverage artificial intelligence and machine learning to automate processes and gain valuable insights.</p>
                 </div>
                 <div class="card">
-                    <h3>?? Data Analytics</h3>
+                    <h3>Data Analytics</h3>
                     <p>Transform raw data into actionable insights with our advanced analytics and business intelligence solutions.</p>
                 </div>
                 <div class="card">
-                    <h3>?? DevOps Services</h3>
+                    <h3>DevOps Services</h3>
                     <p>Streamline your development pipeline with CI/CD automation, infrastructure as code, and monitoring.</p>
                 </div>
                 <div class="card">
-                    <h3>?? UI/UX Design</h3>
+                    <h3>UI/UX Design</h3>
                     <p>Create intuitive and beautiful user interfaces that enhance user satisfaction and engagement.</p>
                 </div>
                 <div class="card">
-                    <h3>??? Maintenance & Support</h3>
+                    <h3>Maintenance & Support</h3>
                     <p>Ongoing support and maintenance to keep your systems running smoothly and efficiently.</p>
                 </div>
             </div>
