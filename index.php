@@ -11,7 +11,7 @@ include 'includes/header.php';
         <img src="images/hero-bg.jpg" alt="Technology Background" class="hero-image">
         
         <!-- Overlay options: 'dark', 'light', or 'gradient-accent' -->
-        <div class="hero-overlay dark"></div>
+        <div class="hero-overlay gradient-accent"></div>
         
         <div class="hero-content">
             <div class="container">
