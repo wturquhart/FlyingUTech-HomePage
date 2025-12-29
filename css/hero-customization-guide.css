@@ -1,0 +1,78 @@
+/* Hero Image Customization Guide
+ * 
+ * This file contains instructions for customizing the hero image section.
+ * 
+ * 1. IMAGE SETUP
+ *    - Place your hero image in the 'images' folder
+ *    - Recommended size: 1920x1080 pixels or larger
+ *    - Supported formats: JPG, PNG, WebP
+ *    - File name: hero-bg.jpg (or update the path in index.php)
+ * 
+ * 2. OVERLAY OPTIONS
+ *    Change the overlay class in index.php to customize the darkness:
+ *    
+ *    <div class="hero-overlay dark"></div>        - Very dark (95% opacity) - Best for bright images
+ *    <div class="hero-overlay"></div>             - Medium dark (85% opacity) - Default
+ *    <div class="hero-overlay light"></div>       - Light (65% opacity) - Best for dark images
+ *    <div class="hero-overlay gradient-accent"></div> - Accent color gradient - Branded look
+ * 
+ * 3. IMAGE POSITIONING
+ *    To adjust how the image is cropped, modify .hero-image in styles.css:
+ *    
+ *    object-fit: cover;        - Fills the space (default)
+ *    object-fit: contain;      - Shows entire image
+ *    object-position: top;     - Focus on top of image
+ *    object-position: center;  - Focus on center (default)
+ *    object-position: bottom;  - Focus on bottom of image
+ * 
+ * 4. HEIGHT CUSTOMIZATION
+ *    Adjust min-height in styles.css .hero-with-image:
+ *    
+ *    min-height: 500px;  - Shorter hero
+ *    min-height: 600px;  - Default
+ *    min-height: 700px;  - Taller hero
+ *    min-height: 100vh;  - Full screen height
+ * 
+ * 5. ALTERNATIVE: USE GRADIENT ONLY (NO IMAGE)
+ *    Remove or comment out the <img> tag in index.php:
+ *    <!-- <img src="images/hero-bg.jpg" alt="Technology Background" class="hero-image"> -->
+ *    
+ *    The gradient background will show automatically.
+ * 
+ * 6. CUSTOM OVERLAY COLORS
+ *    Add custom overlay in styles.css:
+ *    
+ *    .hero-overlay.custom {
+ *        background: linear-gradient(135deg, rgba(YOUR_R, YOUR_G, YOUR_B, 0.9) 0%, rgba(10, 10, 10, 0.8) 100%);
+ *    }
+ * 
+ * 7. PARALLAX EFFECT (OPTIONAL)
+ *    Add to styles.css .hero-image:
+ *    
+ *    position: fixed;  (instead of absolute)
+ *    
+ *    This creates a parallax scrolling effect.
+ */
+
+/* Example Custom Overlay Variations */
+
+/* Blue tinted overlay */
+/*
+.hero-overlay.blue-tint {
+    background: linear-gradient(135deg, rgba(0, 50, 100, 0.85) 0%, rgba(10, 10, 10, 0.9) 100%);
+}
+*/
+
+/* Purple tinted overlay */
+/*
+.hero-overlay.purple-tint {
+    background: linear-gradient(135deg, rgba(75, 0, 130, 0.85) 0%, rgba(10, 10, 10, 0.9) 100%);
+}
+*/
+
+/* Radial gradient overlay */
+/*
+.hero-overlay.radial {
+    background: radial-gradient(circle at center, rgba(10, 10, 10, 0.5) 0%, rgba(10, 10, 10, 0.95) 100%);
+}
+*/
