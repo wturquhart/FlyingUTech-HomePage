@@ -34,9 +34,9 @@
                 
                 <div class="footer-section">
                     <h3>Contact Info</h3>
-                    <p>?? contact@flyingutech.xyz</p>
-                    <p>?? +1 (555) 123-4567</p>
-                    <p>?? 123 Tech Street, Silicon Valley, CA 94000</p>
+                    <p>contact@flyingutech.xyz</p>
+                    <p>+1 (555) 123-4567</p>
+                    <p>123 Tech Street, College Station, TX 77840</p>
                 </div>
             </div>
             
