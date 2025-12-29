@@ -41,7 +41,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?>Flying U Technologies All rights reserved.</p>
+                <p>Flying U Technologies All rights reserved.</p>
                 <p>Designed by Urquhart Web Systems, LLC for innovation</p>
             </div>
         </div>
