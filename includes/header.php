@@ -6,10 +6,15 @@
     <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Professional technology solutions for your business'; ?>">
     <title><?php echo isset($pageTitle) ? $pageTitle . ' - FlyingU Tech' : 'FlyingU Tech - Technology Solutions'; ?></title>
     
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <!-- CSS Files with cache busting -->
+    <?php 
+    $cssVersion = filemtime('css/styles.css'); 
+    $navbarCssVersion = filemtime('css/navbar.css');
+    $footerCssVersion = filemtime('css/footer.css');
+    ?>
+    <link rel="stylesheet" href="css/styles.css?v=<?php echo $cssVersion; ?>">
+    <link rel="stylesheet" href="css/navbar.css?v=<?php echo $navbarCssVersion; ?>">
+    <link rel="stylesheet" href="css/footer.css?v=<?php echo $footerCssVersion; ?>">
 </head>
 <body>
     <nav>
