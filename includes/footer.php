@@ -2,7 +2,7 @@
         <div class="footer-container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>About FlyingU Tech</h3>
+                    <h3>About Flying U Technologies</h3>
                     <p>We are a leading technology company dedicated to providing innovative solutions that drive business success in the digital age.</p>
                     <div class="social-links">
                         <a href="#" title="Facebook">f</a>
@@ -34,15 +34,15 @@
                 
                 <div class="footer-section">
                     <h3>Contact Info</h3>
-                    <p>?? info@flyingutech.com</p>
+                    <p>?? contact@flyingutech.xyz</p>
                     <p>?? +1 (555) 123-4567</p>
                     <p>?? 123 Tech Street, Silicon Valley, CA 94000</p>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> FlyingU Tech. All rights reserved.</p>
-                <p>Designed with ?? for innovation</p>
+                <p>&copy; <?php echo date('Y'); ?>Flying U Technologies All rights reserved.</p>
+                <p>Designed by Urquhart Web Systems, LLC for innovation</p>
             </div>
         </div>
     </footer>
