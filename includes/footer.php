@@ -35,8 +35,8 @@
                 <div class="footer-section">
                     <h3>Contact Info</h3>
                     <p>contact@flyingutech.xyz</p>
-                    <p>+1 (555) 123-4567</p>
-                    <p>123 Tech Street, College Station, TX 77840</p>
+                    <p><i><b>(Technical Support)</b></i>admin@urquhartsystems.com</p>
+                    <p>Brazos Valley, TX, USA</p>
                 </div>
             </div>
             
