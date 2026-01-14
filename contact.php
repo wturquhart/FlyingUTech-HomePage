@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($errors)) {
         // Here you would typically send an email or save to database
         // For this example, we'll just set a success message
-        $successMessage = "Thank you for contacting us! We'll get back to you soon.";
+        $successMessage = "Thank you for reaching out to us! We'll get back to you soon.";
         $formSubmitted = true;
         
         // Clear form data after successful submission
@@ -65,22 +65,19 @@ include 'includes/header.php';
                 <div class="card">
                     <h3>Email</h3>
                     <p>contact@flyingutech.com</p>
-                    <p>admin@urquhartsystems.com</p>
+                    <p><i>(technical support)</i>admin@urquhartsystems.com</p>
                 </div>
                 <div class="card">
                     <h3>Phone</h3>
-                    <p>Main: +1 (555) 123-4567</p>
-                    <p>Support: +1 (555) 123-4568</p>
+                    <p>Main: <b><u>Currently Unavailable. Please reach out to us via the contact form or via email at <a href='mailto:contact@flyingutech.com'>contact@flyingutech.com</a></b></b></p>
                 </div>
                 <div class="card">
                     <h3>Location</h3>
-                    <p>123 Tech Street</p>
-                    <p>Silicon Valley, CA 94000</p>
+                    <p>Brazos Valley, TX, USA</p>
                 </div>
                 <div class="card">
                     <h3>Business Hours</h3>
-                    <p>Monday - Friday: 9AM - 6PM</p>
-                    <p>Weekend: By Appointment</p>
+                    <p><b>24/7</b></p>
                 </div>
             </div>
         </div>
@@ -133,16 +130,5 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Map Section -->
-    <section>
-        <div class="container">
-            <div class="content-section" style="text-align: center;">
-                <h3>Visit Our Office</h3>
-                <p>We're located in the heart of Texas. Schedule a visit to discuss your project in person.</p>
-                <a href="#" class="btn" style="margin-top: 20px;">Schedule a Visit</a>
-            </div>
-        </div>
-    </section>
-</main>
 
 <?php include 'includes/footer.php'; ?>
