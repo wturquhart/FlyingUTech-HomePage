@@ -51,10 +51,18 @@ include 'includes/header.php';
 
 <main>
     <!-- Page Header -->
-    <section class="hero">
-        <div class="container">
-            <h1>Contact Us</h1>
-            <p>Let's discuss how we can help your business succeed</p>
+    <section class="hero hero-with-image">
+        <!-- Hero Image -->
+        <img src="images/hero-bg.jpg" alt="Technology Background" class="hero-image">
+        
+        <!-- Overlay -->
+        <div class="hero-overlay gradient-accent"></div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Let's discuss how we can help your business succeed</p>
+            </div>
         </div>
     </section>
 

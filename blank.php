@@ -6,10 +6,18 @@ include 'includes/header.php';
 
 <main>
     <!-- Page Header -->
-    <section class="hero">
-        <div class="container">
-            <h1>Page Title</h1>
-            <p>Page subtitle or description</p>
+    <section class="hero hero-with-image">
+        <!-- Hero Image -->
+        <img src="images/hero-bg.jpg" alt="Technology Background" class="hero-image">
+        
+        <!-- Overlay -->
+        <div class="hero-overlay gradient-accent"></div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <h1>Page Title</h1>
+                <p>Page subtitle or description</p>
+            </div>
         </div>
     </section>
 
