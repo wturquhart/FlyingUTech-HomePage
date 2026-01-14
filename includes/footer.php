@@ -5,10 +5,10 @@
                     <h3>About Flying U Technologies</h3>
                     <p>We are a leading technology company dedicated to providing innovative solutions that drive business success in the digital age.</p>
                     <div class="social-links">
-                        <a href="#" title="Facebook">f</a>
-                        <a href="#" title="Twitter">??</a>
+                        <a href="#" title="Facebook">F</a>
+                        <a href="#" title="X (Twitter)">X</a>
                         <a href="#" title="LinkedIn">in</a>
-                        <a href="#" title="GitHub">gh</a>
+                        <a href="#" title="GitHub">GH</a>
                     </div>
                 </div>
                 
